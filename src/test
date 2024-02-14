@@ -1,0 +1,43 @@
+# fill in missing data with data from another column
+# df['Cat1'].fillna(df['Cat2'])
+
+# convert dataframe into csv
+# clients.to_csv('csvdata.csv', index=False)
+
+# check if string in dataframe
+# df['col'].str.contains('partial_string').any()
+
+# fill in missing value in column if string in dataframe
+# cond = X['col'] < 2010
+# cond = X['col'] < 2010
+# X['col'] = X['col'].fillna(cond.map({True:'brand', False: 'None'}))
+
+# make brand column uppercase
+# data['brand'] = data['brand'].str.upper()
+  
+
+'''
+Data Preprocessing steps:
+
+- Remove websites with 'combo deals' (SQL Query: WHERE url not like '%/Product/%' ').
+
+- Fill in missing values for 'brand' & 'chip manufacturer' based off of 'productname' (pandas).
+    -  brand ():
+        - List Brands:
+            Brand = ['ASUS', 'MSI', 'EVGA', 'GIGABYTE', 'NVIDIA', 'Sapphire Tech', 'ASRock', 'PNY Technologies, Inc.', 'ZOTAC', 'XFX', 'VisionTek', 'DELL', 'HP', 'MAXSUN', 'PowerColor']
+        
+        - SAPPHIRE
+        - CORN
+    -  
+    -  chipmake:
+        - RTX = NVIDIA
+        - RX = AMD
+
+'''
+
+# Query:
+
+'''
+
+
+'''
